@@ -16,17 +16,17 @@ import { DefaultFilter } from 'ng2-smart-table';
       <nb-card>
         <nb-card-header>Szűrés dátum tól - ig...</nb-card-header>
         <nb-card-body>
-            <ngx-form-datepicker
+            <sffc-form-datepicker
               name="fromDate"
               caption="Kezdő dátum"
               [formGroup]="formGroup"
-            ></ngx-form-datepicker>
+            ></sffc-form-datepicker>
 
-            <ngx-form-datepicker
+            <sffc-form-datepicker
               name="toDate"
               caption="Vég dátum"
               [formGroup]="formGroup"
-            ></ngx-form-datepicker>
+            ></sffc-form-datepicker>
         </nb-card-body>
         <nb-card-footer>
           <button
